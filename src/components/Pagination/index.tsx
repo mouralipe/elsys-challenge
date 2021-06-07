@@ -14,7 +14,7 @@ interface PaginationProps {
 }
 
 export function Pagination({ pageInfo, onPageChange }: PaginationProps) {
-  const siblingsCount = 2;
+  const siblingsCount = 1;
 
   function generatePagesArray(from: number, to: number) {
     return [...new Array(to - from)]
